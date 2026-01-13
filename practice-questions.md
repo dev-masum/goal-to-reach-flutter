@@ -94,5 +94,3 @@ Write a comprehensive C program that:
 9. Prints all results in a well-formatted manner
 
 ---
-
-End of README
