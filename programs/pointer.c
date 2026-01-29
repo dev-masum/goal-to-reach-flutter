@@ -20,12 +20,18 @@
 // }
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
-    int *ptr; // uninitialized pointer
+    char *arr = "hello";
+    // char *arr2 = "hello world";
 
-    *ptr = 10; // ❌ illegal memory access
+    arr[0] = 'i';
+
+    arr = "iello";
+
+    printf("%s", arr);
 
     return 0;
 }
