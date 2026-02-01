@@ -1,24 +1,33 @@
 #include <stdio.h>
-#include "my_lib.h"
+// #include "my_lib.h"
 
-static int x = 10;
+// static int x = 10;
 
-static void increament()
-{
-    static int c = 0;
+// static void increament()
+// {
+//     static int c = 0;
 
-    c = c + 1;
+//     c = c + 1;
 
-    printf("%d", c);
-}
+//     printf("%d", c);
+// }
+
+// int main()
+// {
+//     increament();
+//     increament();
+//     increament();
+
+//     x = 20;
+
+//     printf("%d", x);
+// }
 
 int main()
 {
-    increament();
-    increament();
-    increament();
+    int numbers[10];
 
-    x = 20;
+    scanf("%d", &numbers[4]);
 
-    printf("%d", x);
+    printf("%d", &numbers[4]);
 }
