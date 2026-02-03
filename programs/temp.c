@@ -1,4 +1,7 @@
 #include <stdio.h>
+
+typedef unsigned int uint;
+
 // #include "my_lib.h"
 
 // static int x = 10;
@@ -25,9 +28,19 @@
 
 int main()
 {
-    int numbers[10];
+    // char *numbers = "1234";
 
-    scanf("%d", &numbers[4]);
+    // numbers = "kdjfklsd";
 
-    printf("%d", &numbers[4]);
+    // // scanf("%d", &numbers[4]);
+
+    // printf("%llu", sizeof(numbers));
+
+    uint var = 10;
+    uint var1 = 10;
+    uint var2 = 10;
+    uint var3 = 10;
+    uint var4 = 10;
+
+    printf("%d", var);
 }
